@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Numbers Game</title>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Numbers Game</h1>
+        <main>
+          <details class="rules-container">
+            <summary>Rules</summary>
+            <p>You have $1000, and can choose how much you'll bet.</p>
+            <p>You have 2 betting options: </p>
+             <li>Select a multiplier - to multiply your bet by. 
+              A number will be rolled (0-100) and if it's less than your chance, you win.</li>
+             <li>Choose a lucky number (from 0 to 100), and bet if the rolled number would be <, > or = to your number.</li>
+            <p>If you get lucky, the number rolls in your favour, and your bet gets multiplied.</p>
+            <p>Then, you get the option to cash out, or continue betting with the money you've won.</p>
+            <p>Good luck!</p>
+          </details>
+
+          <div class="balance">
+            <p>Balance: <span class="cash">1000</span></p>
+            <p>Number: <span class="number">0</span></p>
+            <p>Chance: <span class="chance">0</span></p>
+          </div>
+
+          <div class="choose-mode">
+            <label><input name="mode" value="multiplier" type = "radio" checked>Multiplier Mode</label>
+            <label><input name="mode" value="lucky-number" type = "radio">Lucky Number Mode</label>
+          </div>
+
+          <div class="input-container">
+            <label for="bet">Bet: </label> <input id="bet" type="number" value="10" min="0" step="0.5">
+            <label for="multiplier">Multiplier:</label> <input id="multiplier" type="number" value="2" min="1" step="0.1">
+            <label for="lucky-number">Lucky Number: </label>
+            <select class="sign" disabled>
+              <option value="<"> < </option>
+              <option value=">"> > </option>
+              <option value="="> = </option>
+            </select>
+            <input id="lucky-number" type="number" min="1" max="100" disabled value="50">
+          </div>
+
+          <div class="bet-container">
+            <button class="multiplierButton"><span class="multiplierText">2</span>x</button>
+
+          </div>
+
+          <div class="display">0
+             
+          </div>
+
+          <button class="cash-out">
+             CASH OUT
+          </button>
+
+           <ul class="hits">
+           
+           </ul> 
+        
+
+
+            
+
+
+
+
+        </main>
+        <script src="script.js"></script>
+</body>
+</html>
+

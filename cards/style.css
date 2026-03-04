@@ -1,0 +1,105 @@
+* {
+  //border: 1px solid;
+}
+
+body {
+  background-color: #d8bfd8;
+}
+
+#playing-cards {
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+}
+.card > *{
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  align-self: flex-start;
+  margin: 5px;
+}
+
+.middle {
+  align-self: flex-middle;
+  gap: 7px;
+  display: flex;
+  justify-content: middle;
+  align-items: center;
+}
+
+.right {
+  align-self: flex-end;
+  transform: rotate(180deg);
+  margin: 5px;
+}
+
+.red {
+  color: red;
+}
+
+.letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.number {
+  font-size: 1.7rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-weight: bold;
+}
+
+.symbol {
+  display: inline-block;
+  line-height: 0.7;
+  
+}
+
+.large {
+  font-size: 6.5rem;
+  
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+.medium {
+  font-size: 4.5rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.between {
+    grid-column: 1/-1;
+    justify-self: center;
+}

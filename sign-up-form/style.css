@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+
+.image {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.673);
+    background: url('assets/ai_pattern.jpg') center / cover no-repeat;
+}
+
+.stripe {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.673);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+}
+
+.img-window {
+    height: 70px;
+    width: 50px;
+    margin-right: 4px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 50px;
+    filter: brightness(0) invert(1);
+}
+
+h1 {
+    font-family: "IceBerg", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 20px;
+    
+    color: white;
+}
+
+.credit {
+    width: 40%;
+    position: fixed;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+.credit p {
+    color: rgb(175, 139, 139);
+    
+}
+
+.credit a {
+    color: rgb(88, 88, 97);
+}
+
+.background {
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 60%;
+    margin-left: 40%;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+
+}
+
+.form-container {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    padding: 0px 30px;
+    box-shadow: 3px 4px 5px rgb(216, 211, 211);
+}
+
+#tech-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: fit-content;
+}
+
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 25px;
+    font-size: 0.8rem;
+    padding-right: 6vw;
+}
+
+
+
+input:focus {
+    outline: 1px solid rgb(47, 23, 204);
+    box-shadow: 2px 2px 2px rgba(0, 0, 255, 0.192);
+}
+
+input[type="password"]:invalid {
+    outline: 1px solid red;
+    
+}
+
+input{
+    border-radius: 3px;
+    border: 1px solid #E5E7EB;
+    margin-top: 3px;
+    padding: 6px;
+    width: 250px;
+    
+
+    
+}
+
+.large {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.highlight {
+    color: orange;
+}
+
+.text-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 35%;
+    font-size: 1rem;
+    padding: 0 30px;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.text-2 {
+    height: 25%;
+    padding: 30px;
+}
+
+button {
+    background-color: orange;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 2px 2px rgb(234, 224, 224);
+    font-size: 1rem;
+    margin-bottom: 10px;
+
+
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(229, 149, 0);
+}
+
+.log-in {
+    color: orange;
+    text-decoration: none;
+}
+
+
+
+.log-in:hover {
+    text-decoration: underline;
+    
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 45px
+}
+
