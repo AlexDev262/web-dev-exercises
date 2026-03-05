@@ -11,15 +11,15 @@ If you're a friend checking this out, feel free to look through the code. It’s
 ---
 
 ### 🔗 Project Links
-* <a href="https://alexdev262.github.io/web-dev-exercises/cards/" target="_blank">Cards</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/css-grid/" target="_blank">CSS Grid</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/netvault-landing-page/" target="_blank">Netvault Landing Page</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/numbers-game/" target="_blank">Numbers Game</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/odin-recipes/" target="_blank">Odin Recipes</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/palindrome-checker/" target="_blank">Palindrome Checker</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/personal-portfolio/" target="_blank">Personal Portfolio</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/responsive-holy-grail/" target="_blank">Responsive Holy Grail</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/sign-up-form/" target="_blank">Sign-up Form</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/sum-calculator/" target="_blank">Sum Calculator</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/table-project/" target="_blank">Table Project</a>
-* <a href="https://alexdev262.github.io/web-dev-exercises/technical-documentation/" target="_blank">Technical Documentation</a>
+* [Cards](https://alexdev262.github.io/web-dev-exercises/cards/)
+* [CSS Grid](https://alexdev262.github.io/web-dev-exercises/css-grid/)
+* [Netvault Landing Page](https://alexdev262.github.io/web-dev-exercises/netvault-landing-page/)
+* [Numbers Game](https://alexdev262.github.io/web-dev-exercises/numbers-game/)
+* [Odin Recipes](https://alexdev262.github.io/web-dev-exercises/odin-recipes/)
+* [Palindrome Checker](https://alexdev262.github.io/web-dev-exercises/palindrome-checker/)
+* [Personal Portfolio](https://alexdev262.github.io/web-dev-exercises/personal-portfolio/)
+* [Responsive Holy Grail](https://alexdev262.github.io/web-dev-exercises/responsive-holy-grail/)
+* [Sign-up Form](https://alexdev262.github.io/web-dev-exercises/sign-up-form/)
+* [Sum Calculator](https://alexdev262.github.io/web-dev-exercises/sum-calculator/)
+* [Table Project](https://alexdev262.github.io/web-dev-exercises/table-project/)
+* [Technical Documentation](https://alexdev262.github.io/web-dev-exercises/technical-documentation/)
